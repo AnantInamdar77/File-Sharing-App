@@ -1,7 +1,7 @@
 import mongoose  from "mongoose"
 
 const DBConnection=async()=>{
-    const MONGODB_URI=`mongodb+srv://Anant:AnantInamdar@file-sharing.jlwsf6z.mongodb.net/?retryWrites=true&w=majority&appName=file-Sharing`
+    const MONGODB_URI=`xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
     try {
        await mongoose.connect(MONGODB_URI,{useNewUrlParser: true,
         useUnifiedTopology: true,
